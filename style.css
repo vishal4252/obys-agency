@@ -585,10 +585,6 @@ body {
 }
 
 @media (max-width:768px) {
-    #loader {
-        z-index: 99999;
-    }
-
     .page1 {
         width: 100%;
         height: 60vh;

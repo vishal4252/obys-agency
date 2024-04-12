@@ -585,6 +585,10 @@ body {
 }
 
 @media (max-width:768px) {
+    #loader {
+        z-index: 99999;
+    }
+
     .page1 {
         width: 100%;
         height: 60vh;
@@ -652,7 +656,7 @@ body {
         width: 100%;
         height: fit-content;
         position: relative;
-        padding-top: 0vh;
+        padding-top: 17vh;
     }
 
     .page2 .video-wrapper {
@@ -689,7 +693,7 @@ body {
         width: 100%;
         min-height: 100vh;
         position: relative;
-        padding: 0vh;
+        padding: 17vh 2vw;
         margin-bottom: 20vh;
     }
 

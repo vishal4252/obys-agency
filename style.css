@@ -345,7 +345,6 @@ body {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     gap: 1.2vw;
-    /* background-color: red; */
 }
 
 .img-wrapper .img-items {
@@ -355,7 +354,6 @@ body {
     flex-shrink: 0;
     position: relative;
     overflow: hidden;
-    /* background-color: #3F7DF4; */
 }
 
 .img-wrapper .img-items:nth-child(2) {
@@ -721,18 +719,10 @@ body {
     }
 
     .page1 {
-        width: 100%;
         height: 60vh;
-        background-color: #151515;
     }
 
     .page1 #nav {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
         -webkit-box-pack: end;
         -ms-flex-pack: end;
         justify-content: flex-end;
@@ -743,60 +733,23 @@ body {
         scale: 0.8;
     }
 
-    .page1 #nav #sub-nav {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        gap: 3vw;
-    }
-
     .page1 #nav #sub-nav h4 {
-        font-size: 0.8vw;
-        font-weight: 500;
         display: none;
     }
 
     .hero {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
         width: 72%;
-        height: -webkit-fit-content;
-        height: -moz-fit-content;
-        height: fit-content;
         margin-left: 5%;
-        overflow: hidden;
-        z-index: 99999;
-    }
-
-    .hero:nth-child(2) {
-        margin-top: 18vh;
     }
 
     .hero h1,
     .hero h2 {
         font-size: 9.2vw;
-        text-transform: uppercase;
         line-height: 9.5vw;
-        position: relative;
     }
 
     #hero1::before {
-        content: "01";
-        position: absolute;
         font-size: 5vw;
-        font-style: italic;
-        font-weight: 100;
-        font-family: 'Times New Roman', Times, serif;
         left: 6%;
         top: 35%;
     }
@@ -806,42 +759,24 @@ body {
         height: -webkit-fit-content;
         height: -moz-fit-content;
         height: fit-content;
-        position: relative;
         padding-top: 17vh;
     }
 
     .page2 .video-wrapper {
         width: 100vw;
         height: 50vh;
-        position: relative;
         left: 0%;
-        background-image: url(https://obys.agency/wp-content/uploads/2022/11/Showreel-2022-preview-1.jpg);
-        background-size: cover;
-        background-position: center;
         margin-bottom: 40vw;
     }
 
     .page2 .video-wrapper .video-mouse {
         width: 22vw;
         height: 22vw;
-        position: absolute;
-        background-color: #FFA63D;
-        border-radius: 50%;
         top: 50%;
         left: 50%;
         -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        z-index: 999;
     }
 
     .page2 .video-wrapper .video-mouse i {
@@ -858,18 +793,11 @@ body {
 
     .page3 h1 {
         font-size: 9.2vw;
-        text-transform: uppercase;
-        position: relative;
         margin-left: 6vw;
     }
 
     .page3 h1::before {
-        content: "02";
-        position: absolute;
         font-size: 5vw;
-        font-style: italic;
-        font-weight: 100;
-        font-family: 'Times New Roman', Times, serif;
         left: 0%;
         top: -60%;
     }
@@ -881,11 +809,6 @@ body {
     }
 
     .img-wrapper {
-        position: relative;
-        padding: 2vw;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
@@ -896,20 +819,11 @@ body {
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        gap: 1.2vw;
-        /* background-color: red; */
     }
 
     .img-wrapper .img-items {
         width: 90vw;
         height: 120vw;
-        -ms-flex-negative: 0;
-        flex-shrink: 0;
-        position: relative;
-        overflow: hidden;
-        background-color: #3F7DF4;
     }
 
     .img-wrapper .img-items:nth-child(2) {
@@ -928,121 +842,12 @@ body {
         height: 120vw;
     }
 
-    .img-wrapper .img-items img {
-        width: 100%;
-        height: 100%;
-        -o-object-fit: cover;
-        object-fit: cover;
-        -o-object-position: center;
-        object-position: center;
-    }
-
     .img-wrapper .page3-circle1 {
-        width: 23vw;
-        height: 23vw;
-        border: 2px solid #fff;
-        border-radius: 50%;
-        margin-top: 30vh;
-        margin-left: 8vw;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        position: relative;
         display: none;
-    }
-
-    .img-wrapper .page3-circle1 svg {
-        width: 40%;
-        height: 40%;
-    }
-
-    .circle-info {
-        height: 100%;
-        width: 100%;
-        border-radius: 50%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        background-color: #fff;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-transition: all ease 0.5s;
-        -o-transition: all ease 0.5s;
-        transition: all ease 0.5s;
-        scale: 0;
-    }
-
-    .circle-info p {
-        font-size: 0.9vw;
-        color: #000;
-        font-weight: 500;
-        width: 80%;
-        text-align: center;
-        scale: 0;
-        -webkit-transition: all ease 0.5s;
-        -o-transition: all ease 0.5s;
-        transition: all ease 0.5s;
-        -webkit-transition-delay: 0.5s;
-        -o-transition-delay: 0.5s;
-        transition-delay: 0.5s;
-        opacity: 0;
-    }
-
-    .page3-circle1:hover .circle-info {
-        scale: 1;
-    }
-
-    .page3-circle1:hover p {
-        scale: 1;
-        opacity: 1;
-    }
-
-    .page3-circle2:hover .circle-info {
-        scale: 1;
-    }
-
-    .page3-circle2:hover p {
-        scale: 1;
-        opacity: 1;
     }
 
     .img-wrapper .page3-circle2 {
-        width: 23vw;
-        height: 23vw;
-        border: 2px solid #fff;
-        border-radius: 50%;
-        /* margin-top: 30vh; */
-        /* margin-left: 8vw; */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        position: relative;
         display: none;
-    }
-
-    .img-wrapper .page3-circle2 svg {
-        width: 40%;
-        height: 40%;
-        rotate: -45deg;
     }
 
     .page4 {
@@ -1060,32 +865,23 @@ body {
 
     .page4 .page4-wrapper h1 {
         font-size: 9.2vw;
-        text-transform: uppercase;
-        position: relative;
     }
 
     .page4 .page4-wrapper h1::before {
-        content: "03";
-        position: absolute;
         font-size: 5vw;
-        font-style: italic;
-        font-weight: 100;
-        font-family: 'Times New Roman', Times, serif;
         left: 0%;
         top: -70%;
     }
 
     .hr-line {
-        width: 100%;
         height: 0.5vw;
-        background-color: #fff;
         margin: 8vw 0 16vw;
     }
 
     .page4 .page4-wrapper>p {
         font-size: 5.5vw;
         width: 100%;
-        margin-bottom: 3vw;
+        margin-bottom: 5vw;
     }
 
     .page4 .page4-sub-wrapper {
@@ -1104,35 +900,21 @@ body {
     }
 
     .page4 .page4-wrapper2 {
-        background-color: #3F7DF4;
         width: 100%;
         padding: 0 3vw 12vw;
-        position: relative;
         margin-top: 0vh;
         margin-left: 0vw;
     }
 
     .page4 .page4-sub-wrapper2 {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: start;
-        -ms-flex-align: start;
-        align-items: flex-start;
-        -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
         padding: 8vw 0;
-        border-bottom: 2px solid #ffffff8d;
     }
 
     .page4 .page4-sub-wrapper2 h4 {
         font-size: 4vw;
-        font-weight: 500;
     }
 
     .page4 .page4-sub-wrapper2 p {
-        width: 40%;
         font-size: 3.2vw;
     }
 
@@ -1143,55 +925,20 @@ body {
         height: fit-content;
         margin-top: 20vh;
         margin-bottom: 20vh;
-        position: relative;
-    }
-
-    .page5-wrapper1,
-    .page5-wrapper2 {
-        white-space: nowrap;
-        overflow-x: hidden;
     }
 
     .page5-wrapper1 h1 {
         font-size: 9.2vw;
-        font-weight: 500;
-        -webkit-text-stroke: 1px #fff;
-        color: transparent;
-        text-transform: uppercase;
-        display: inline-block;
-        margin-right: 16px;
         -webkit-animation: markeeAnimation 30s linear infinite;
         animation: markeeAnimation 30s linear infinite;
     }
 
     .page5-wrapper2 h1 {
         font-size: 9.2vw;
-        font-weight: 500;
-        -webkit-text-stroke: 1px #fff;
-        color: transparent;
-        text-transform: uppercase;
-        display: inline-block;
-        margin-right: 16px;
-        -webkit-transform: translateX(-125%);
-        -ms-transform: translateX(-125%);
-        transform: translateX(-125%);
         animation: markeeAnimation 30s linear reverse infinite;
     }
 
-    .page5-wrapper1 h1 span,
-    .page5-wrapper2 h1 span {
-        font-family: 'Times New Roman', Times, serif;
-        font-style: italic;
-        -webkit-text-stroke: 1px #fff;
-        color: transparent;
-    }
-
     #footer {
-        width: 100%;
-        height: -webkit-fit-content;
-        height: -moz-fit-content;
-        height: fit-content;
-        position: relative;
         padding-left: 0vw;
         padding-right: 0vw;
         padding: 0 2.5vh;
@@ -1199,31 +946,15 @@ body {
 
     #footer h1 {
         font-size: 9.2vw;
-        text-transform: uppercase;
-        position: relative;
     }
 
     #footer h1::before {
-        content: "04";
-        position: absolute;
         font-size: 5vw;
-        font-style: italic;
-        font-weight: 100;
-        font-family: 'Times New Roman', Times, serif;
-        left: 5%;
+        left: 0%;
         top: -70%;
     }
 
     .sub-footer {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: start;
-        -ms-flex-align: start;
-        align-items: flex-start;
-        -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1238,13 +969,11 @@ body {
 
     .sub-footer .footer-details h5 {
         font-size: 4vw;
-        font-weight: 600;
         margin: 1.5vw 0 5vw 0;
     }
 
     .sub-footer .footer-details h6 {
         font-size: 5.5vw;
-        font-weight: 500;
     }
 
     #footer .copyright h5 {

@@ -163,8 +163,7 @@ function sheryAnimation() {
         })
     }
     // Calling checkScreenWidth fun with eventlistener on "load" and "resize" of browser....
-    window.addEventListener('load', checkScreenWidth);
-    window.addEventListener('resize', checkScreenWidth);
+    checkScreenWidth()
 }
 
 locoMotive()
